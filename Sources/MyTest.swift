@@ -11,11 +11,7 @@
 public class MyTest {
     
     static public func test() -> String {
-//        #if TARGET_OS_MAC
-//        return "hello mac"
-//        #else
         return "hello ios"
-//        #endif
     }
     
     
