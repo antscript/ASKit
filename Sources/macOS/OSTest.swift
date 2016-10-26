@@ -8,9 +8,9 @@
 
 
 //#if TARGET_OS_MAC
-//class OSTest {
-//    static public func test() -> String {
-//        return "macOS"
-//    }
-//}
+class OSTest {
+    static public func test() -> String {
+        return "macOS"
+    }
+}
 //#endif
