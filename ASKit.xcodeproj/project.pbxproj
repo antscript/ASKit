@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F6BAA081DC0A44C002B442C /* OSTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6BAA071DC0A44C002B442C /* OSTest.swift */; };
+		8F6BAA0D1DC0A4C2002B442C /* OSTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6BAA0A1DC0A49D002B442C /* OSTest.swift */; };
 		8F9132E11DC08B59005783C6 /* ASKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9132DF1DC08B59005783C6 /* ASKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F9132EB1DC08E4D005783C6 /* ASKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9132DF1DC08B59005783C6 /* ASKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F9132ED1DC08EB5005783C6 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9132EC1DC08EB5005783C6 /* MyTest.swift */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F6BAA071DC0A44C002B442C /* OSTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSTest.swift; path = macOS/OSTest.swift; sourceTree = "<group>"; };
+		8F6BAA0A1DC0A49D002B442C /* OSTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSTest.swift; path = iOS/OSTest.swift; sourceTree = "<group>"; };
 		8F9132CF1DC08B3B005783C6 /* ASKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9132DD1DC08B59005783C6 /* ASKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9132DF1DC08B59005783C6 /* ASKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASKit.h; sourceTree = "<group>"; };
@@ -40,6 +44,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F6BAA061DC0A431002B442C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8F6BAA071DC0A44C002B442C /* OSTest.swift */,
+			);
+			name = macOS;
+			sourceTree = "<group>";
+		};
+		8F6BAA091DC0A488002B442C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8F6BAA0A1DC0A49D002B442C /* OSTest.swift */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		8F9132C31DC08AF2005783C6 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +80,8 @@
 		8F9132E61DC08CD4005783C6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8F6BAA091DC0A488002B442C /* iOS */,
+				8F6BAA061DC0A431002B442C /* macOS */,
 				8F9132DF1DC08B59005783C6 /* ASKit.h */,
 				8F9132E71DC08CD4005783C6 /* Info-iOS.plist */,
 				8F9132E81DC08CD4005783C6 /* Info-macOS.plist */,
@@ -186,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F9132ED1DC08EB5005783C6 /* MyTest.swift in Sources */,
+				8F6BAA081DC0A44C002B442C /* OSTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F6BAA0D1DC0A4C2002B442C /* OSTest.swift in Sources */,
 				8F9132EE1DC093DC005783C6 /* MyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
