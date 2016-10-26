@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F6BAA081DC0A44C002B442C /* OSTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6BAA071DC0A44C002B442C /* OSTest.swift */; };
-		8F6BAA0D1DC0A4C2002B442C /* OSTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6BAA0A1DC0A49D002B442C /* OSTest.swift */; };
 		8F9132E11DC08B59005783C6 /* ASKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9132DF1DC08B59005783C6 /* ASKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F9132EB1DC08E4D005783C6 /* ASKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9132DF1DC08B59005783C6 /* ASKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F9132ED1DC08EB5005783C6 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9132EC1DC08EB5005783C6 /* MyTest.swift */; };
@@ -208,7 +206,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F9132ED1DC08EB5005783C6 /* MyTest.swift in Sources */,
-				8F6BAA081DC0A44C002B442C /* OSTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +213,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6BAA0D1DC0A4C2002B442C /* OSTest.swift in Sources */,
 				8F9132EE1DC093DC005783C6 /* MyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
