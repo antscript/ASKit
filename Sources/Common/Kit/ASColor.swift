@@ -9,8 +9,8 @@
 
 #if os(OSX)
     import AppKit
-    typealias ASColor = NSColor
+    public typealias ASColor = NSColor
 #else
     import UIKit
-    typealias ASColor = UIColor
+    public typealias ASColor = UIColor
 #endif
