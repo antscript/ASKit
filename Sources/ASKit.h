@@ -8,10 +8,10 @@
 
 #import <TargetConditionals.h>
 
-#if TARGET_OS_IPHONE || TARGET_OS_TV
-    #import <UIKit/UIKit.h>
-#else
+#if TARGET_OS_MAC
     #import <AppKit/AppKit.h>
+#else
+    #import <UIKit/UIKit.h>
 #endif
 
 
