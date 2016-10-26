@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8F9132CE1DC08B3B005783C6"
-               BuildableName = "ASKit macOS.framework"
+               BuildableName = "ASKit.framework"
                BlueprintName = "ASKit macOS"
                ReferencedContainer = "container:ASKit.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8F9132CE1DC08B3B005783C6"
-            BuildableName = "ASKit macOS.framework"
+            BuildableName = "ASKit.framework"
             BlueprintName = "ASKit macOS"
             ReferencedContainer = "container:ASKit.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8F9132CE1DC08B3B005783C6"
-            BuildableName = "ASKit macOS.framework"
+            BuildableName = "ASKit.framework"
             BlueprintName = "ASKit macOS"
             ReferencedContainer = "container:ASKit.xcodeproj">
          </BuildableReference>

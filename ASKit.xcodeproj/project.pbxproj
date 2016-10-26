@@ -10,6 +10,7 @@
 		8F9132E11DC08B59005783C6 /* ASKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9132DF1DC08B59005783C6 /* ASKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F9132EB1DC08E4D005783C6 /* ASKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9132DF1DC08B59005783C6 /* ASKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F9132ED1DC08EB5005783C6 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9132EC1DC08EB5005783C6 /* MyTest.swift */; };
+		8F9132EE1DC093DC005783C6 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9132EC1DC08EB5005783C6 /* MyTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -192,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9132EE1DC093DC005783C6 /* MyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +476,7 @@
 				8F9132D71DC08B3B005783C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F9132E21DC08B59005783C6 /* Build configuration list for PBXNativeTarget "ASKit iOS" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +485,7 @@
 				8F9132E41DC08B59005783C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

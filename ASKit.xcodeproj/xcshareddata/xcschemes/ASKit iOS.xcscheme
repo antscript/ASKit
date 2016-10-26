@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8F9132DC1DC08B59005783C6"
-               BuildableName = "ASKit iOS.framework"
+               BuildableName = "ASKit.framework"
                BlueprintName = "ASKit iOS"
                ReferencedContainer = "container:ASKit.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8F9132DC1DC08B59005783C6"
-            BuildableName = "ASKit iOS.framework"
+            BuildableName = "ASKit.framework"
             BlueprintName = "ASKit iOS"
             ReferencedContainer = "container:ASKit.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8F9132DC1DC08B59005783C6"
-            BuildableName = "ASKit iOS.framework"
+            BuildableName = "ASKit.framework"
             BlueprintName = "ASKit iOS"
             ReferencedContainer = "container:ASKit.xcodeproj">
          </BuildableReference>
