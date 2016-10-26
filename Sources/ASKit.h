@@ -6,10 +6,10 @@
 //
 //
 
-#if TARGET_OS_MAC
-    #import <Cocoa/Cocoa.h>
-#else
+#if TARGET_OS_IOS
     #import <UIKit/UIKit.h>
+#else
+    #import <Cocoa/Cocoa.h>
 #endif
 
 //! Project version number for ASKit iOS.
