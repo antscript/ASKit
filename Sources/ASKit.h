@@ -6,7 +6,7 @@
 //
 //
 
-#if TARGET_OS_OSX
+#if TARGET_OS_MAC
     #import <Cocoa/Cocoa.h>
 #else
     #import <UIKit/UIKit.h>
