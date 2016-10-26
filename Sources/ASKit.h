@@ -6,10 +6,10 @@
 //
 //
 
-#if TARGET_OS_OSX == 1
-    #import <Cocoa/Cocoa.h>
+#if TARGET_OS_IPHONE || TARGET_OS_TV
+#import <UIKit/UIKit.h>
 #else
-    #import <UIKit/UIKit.h>
+#import <AppKit/AppKit.h>
 #endif
 
 //! Project version number for ASKit iOS.
