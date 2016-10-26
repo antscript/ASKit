@@ -6,10 +6,10 @@
 //
 //
 
-//#if TARGET_OS_IPHONE
+#if TARGET_OS_IPHONE
 class OSTest {
     static public func test() -> String {
         return "iOS"
     }
 }
-//#endif
+#endif
