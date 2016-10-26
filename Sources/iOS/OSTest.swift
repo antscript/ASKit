@@ -7,7 +7,7 @@
 //
 
 //#if TARGET_OS_IPHONE
-class OSTest {
+public class OSTest {
     static public func test() -> String {
         return "iOS"
     }

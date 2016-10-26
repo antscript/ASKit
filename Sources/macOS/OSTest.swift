@@ -8,7 +8,7 @@
 
 
 //#if TARGET_OS_MAC
-class OSTest {
+public class OSTest {
     static public func test() -> String {
         return "macOS"
     }
