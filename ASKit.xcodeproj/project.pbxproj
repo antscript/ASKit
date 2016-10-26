@@ -13,6 +13,8 @@
 		8F9132EB1DC08E4D005783C6 /* ASKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9132DF1DC08B59005783C6 /* ASKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F9132ED1DC08EB5005783C6 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9132EC1DC08EB5005783C6 /* MyTest.swift */; };
 		8F9132EE1DC093DC005783C6 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9132EC1DC08EB5005783C6 /* MyTest.swift */; };
+		8FF4EE751DC0D1A300EE2436 /* ASColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE741DC0D1A300EE2436 /* ASColor.swift */; };
+		8FF4EE761DC0D23A00EE2436 /* ASColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE741DC0D1A300EE2436 /* ASColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		8F9132E71DC08CD4005783C6 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		8F9132E81DC08CD4005783C6 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		8F9132EC1DC08EB5005783C6 /* MyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTest.swift; sourceTree = "<group>"; };
+		8FF4EE741DC0D1A300EE2436 /* ASColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASColor.swift; path = Common/Kit/ASColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,7 @@
 		8F9132E61DC08CD4005783C6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8FF4EE721DC0D0FE00EE2436 /* Common */,
 				8F6BAA0E1DC0AD93002B442C /* iOS */,
 				8F6BAA101DC0AD93002B442C /* macOS */,
 				8F9132DF1DC08B59005783C6 /* ASKit.h */,
@@ -88,6 +92,22 @@
 				8F9132EC1DC08EB5005783C6 /* MyTest.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		8FF4EE721DC0D0FE00EE2436 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4EE731DC0D17300EE2436 /* Kit */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		8FF4EE731DC0D17300EE2436 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4EE741DC0D1A300EE2436 /* ASColor.swift */,
+			);
+			name = Kit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F9132ED1DC08EB5005783C6 /* MyTest.swift in Sources */,
+				8FF4EE751DC0D1A300EE2436 /* ASColor.swift in Sources */,
 				8F6BAA131DC0AD93002B442C /* OSTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF4EE761DC0D23A00EE2436 /* ASColor.swift in Sources */,
 				8F6BAA141DC0ADB6002B442C /* OSTest.swift in Sources */,
 				8F9132EE1DC093DC005783C6 /* MyTest.swift in Sources */,
 			);
