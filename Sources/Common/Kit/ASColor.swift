@@ -7,15 +7,13 @@
 //
 
 
-#import <TargetConditionals.h>
-
-#if TARGET_OS_OSX
-    import <AppKit/AppKit.h>
+#if os(OSX)
+    import AppKit
     public class ASColor:NSColor {
         
     }
 #else
-    import <UIKit/UIKit.h>
+    import UIKit
     public class ASColor:UIColor {
         
     }
