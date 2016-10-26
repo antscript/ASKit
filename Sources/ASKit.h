@@ -6,7 +6,10 @@
 //
 //
 
+#if os(iOS)
 #import <UIKit/UIKit.h>
+#elseif os(macOS)
+#import <Cocoa/Cocoa.h>
 
 //! Project version number for ASKit iOS.
 FOUNDATION_EXPORT double ASKitVersionNumber;
