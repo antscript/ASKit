@@ -13,8 +13,19 @@
 		8F9132EB1DC08E4D005783C6 /* ASKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9132DF1DC08B59005783C6 /* ASKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F9132ED1DC08EB5005783C6 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9132EC1DC08EB5005783C6 /* MyTest.swift */; };
 		8F9132EE1DC093DC005783C6 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9132EC1DC08EB5005783C6 /* MyTest.swift */; };
-		8FF4EE751DC0D1A300EE2436 /* ASColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE741DC0D1A300EE2436 /* ASColor.swift */; };
-		8FF4EE761DC0D23A00EE2436 /* ASColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE741DC0D1A300EE2436 /* ASColor.swift */; };
+		8FF4EE751DC0D1A300EE2436 /* ASTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE741DC0D1A300EE2436 /* ASTypealias.swift */; };
+		8FF4EE761DC0D23A00EE2436 /* ASTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE741DC0D1A300EE2436 /* ASTypealias.swift */; };
+		8FF4EE791DC15C0E00EE2436 /* ASTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE781DC15C0E00EE2436 /* ASTimer.swift */; };
+		8FF4EE801DC1697800EE2436 /* ASScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE7F1DC1697800EE2436 /* ASScreen.swift */; };
+		8FF4EE861DC16A8100EE2436 /* ASLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE851DC16A8100EE2436 /* ASLayer.swift */; };
+		8FF4EE891DC16B8600EE2436 /* ASButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE881DC16B8600EE2436 /* ASButton.swift */; };
+		8FF4EE8B1DC16D4D00EE2436 /* ASLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE8A1DC16D4D00EE2436 /* ASLabel.swift */; };
+		8FF4EE8D1DC18AC600EE2436 /* ASLinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE8C1DC18AC600EE2436 /* ASLinkButton.swift */; };
+		8FF4EE8F1DC1919100EE2436 /* ASHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE8E1DC1919100EE2436 /* ASHUD.swift */; };
+		8FF4EE911DC1920500EE2436 /* ASSingleWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE901DC1920500EE2436 /* ASSingleWindow.swift */; };
+		8FF4EE941DC1ABC100EE2436 /* SystemEventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE931DC1ABC100EE2436 /* SystemEventsViewModel.swift */; };
+		8FF4EE971DC1ACCF00EE2436 /* RxUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE961DC1ACCF00EE2436 /* RxUI.swift */; };
+		8FF4EE991DC1AF0600EE2436 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4EE981DC1AF0600EE2436 /* App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +37,18 @@
 		8F9132E71DC08CD4005783C6 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		8F9132E81DC08CD4005783C6 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		8F9132EC1DC08EB5005783C6 /* MyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTest.swift; sourceTree = "<group>"; };
-		8FF4EE741DC0D1A300EE2436 /* ASColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASColor.swift; path = Common/Kit/ASColor.swift; sourceTree = "<group>"; };
+		8FF4EE741DC0D1A300EE2436 /* ASTypealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASTypealias.swift; path = Common/Kit/ASTypealias.swift; sourceTree = "<group>"; };
+		8FF4EE781DC15C0E00EE2436 /* ASTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASTimer.swift; path = Common/Helper/ASTimer.swift; sourceTree = "<group>"; };
+		8FF4EE7F1DC1697800EE2436 /* ASScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASScreen.swift; path = Helper/ASScreen.swift; sourceTree = "<group>"; };
+		8FF4EE851DC16A8100EE2436 /* ASLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASLayer.swift; sourceTree = "<group>"; };
+		8FF4EE881DC16B8600EE2436 /* ASButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASButton.swift; path = UI/ASButton.swift; sourceTree = "<group>"; };
+		8FF4EE8A1DC16D4D00EE2436 /* ASLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASLabel.swift; path = UI/ASLabel.swift; sourceTree = "<group>"; };
+		8FF4EE8C1DC18AC600EE2436 /* ASLinkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASLinkButton.swift; path = UI/ASLinkButton.swift; sourceTree = "<group>"; };
+		8FF4EE8E1DC1919100EE2436 /* ASHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASHUD.swift; path = UI/ASHUD.swift; sourceTree = "<group>"; };
+		8FF4EE901DC1920500EE2436 /* ASSingleWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASSingleWindow.swift; path = UI/ASSingleWindow.swift; sourceTree = "<group>"; };
+		8FF4EE931DC1ABC100EE2436 /* SystemEventsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SystemEventsViewModel.swift; path = Events/SystemEventsViewModel.swift; sourceTree = "<group>"; };
+		8FF4EE961DC1ACCF00EE2436 /* RxUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxUI.swift; path = Rx/RxUI.swift; sourceTree = "<group>"; };
+		8FF4EE981DC1AF0600EE2436 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = App.swift; path = Common/Constants/App.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,10 @@
 		8F6BAA101DC0AD93002B442C /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				8FF4EE951DC1ACAC00EE2436 /* Rx */,
+				8FF4EE921DC1AB9000EE2436 /* Events */,
+				8FF4EE871DC16B5B00EE2436 /* UI */,
+				8FF4EE7E1DC1692500EE2436 /* Helper */,
 				8F6BAA111DC0AD93002B442C /* OSTest.swift */,
 			);
 			path = macOS;
@@ -97,7 +123,10 @@
 		8FF4EE721DC0D0FE00EE2436 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				8FF4EE841DC16A8100EE2436 /* Graphics */,
+				8FF4EE771DC15BCA00EE2436 /* Helper */,
 				8FF4EE731DC0D17300EE2436 /* Kit */,
+				8FF4EE981DC1AF0600EE2436 /* App.swift */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -105,9 +134,62 @@
 		8FF4EE731DC0D17300EE2436 /* Kit */ = {
 			isa = PBXGroup;
 			children = (
-				8FF4EE741DC0D1A300EE2436 /* ASColor.swift */,
+				8FF4EE741DC0D1A300EE2436 /* ASTypealias.swift */,
 			);
 			name = Kit;
+			sourceTree = "<group>";
+		};
+		8FF4EE771DC15BCA00EE2436 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4EE781DC15C0E00EE2436 /* ASTimer.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		8FF4EE7E1DC1692500EE2436 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4EE7F1DC1697800EE2436 /* ASScreen.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		8FF4EE841DC16A8100EE2436 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4EE851DC16A8100EE2436 /* ASLayer.swift */,
+			);
+			name = Graphics;
+			path = Common/Graphics;
+			sourceTree = "<group>";
+		};
+		8FF4EE871DC16B5B00EE2436 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4EE881DC16B8600EE2436 /* ASButton.swift */,
+				8FF4EE8A1DC16D4D00EE2436 /* ASLabel.swift */,
+				8FF4EE8C1DC18AC600EE2436 /* ASLinkButton.swift */,
+				8FF4EE8E1DC1919100EE2436 /* ASHUD.swift */,
+				8FF4EE901DC1920500EE2436 /* ASSingleWindow.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		8FF4EE921DC1AB9000EE2436 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4EE931DC1ABC100EE2436 /* SystemEventsViewModel.swift */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		8FF4EE951DC1ACAC00EE2436 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4EE961DC1ACCF00EE2436 /* RxUI.swift */,
+			);
+			name = Rx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,9 +309,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF4EE891DC16B8600EE2436 /* ASButton.swift in Sources */,
 				8F9132ED1DC08EB5005783C6 /* MyTest.swift in Sources */,
-				8FF4EE751DC0D1A300EE2436 /* ASColor.swift in Sources */,
+				8FF4EE801DC1697800EE2436 /* ASScreen.swift in Sources */,
+				8FF4EE911DC1920500EE2436 /* ASSingleWindow.swift in Sources */,
+				8FF4EE941DC1ABC100EE2436 /* SystemEventsViewModel.swift in Sources */,
+				8FF4EE991DC1AF0600EE2436 /* App.swift in Sources */,
+				8FF4EE791DC15C0E00EE2436 /* ASTimer.swift in Sources */,
+				8FF4EE8B1DC16D4D00EE2436 /* ASLabel.swift in Sources */,
+				8FF4EE8F1DC1919100EE2436 /* ASHUD.swift in Sources */,
+				8FF4EE971DC1ACCF00EE2436 /* RxUI.swift in Sources */,
+				8FF4EE751DC0D1A300EE2436 /* ASTypealias.swift in Sources */,
 				8F6BAA131DC0AD93002B442C /* OSTest.swift in Sources */,
+				8FF4EE861DC16A8100EE2436 /* ASLayer.swift in Sources */,
+				8FF4EE8D1DC18AC600EE2436 /* ASLinkButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FF4EE761DC0D23A00EE2436 /* ASColor.swift in Sources */,
+				8FF4EE761DC0D23A00EE2436 /* ASTypealias.swift in Sources */,
 				8F6BAA141DC0ADB6002B442C /* OSTest.swift in Sources */,
 				8F9132EE1DC093DC005783C6 /* MyTest.swift in Sources */,
 			);
