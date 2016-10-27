@@ -59,7 +59,7 @@ public class ASHUD {
         disposeBag = DisposeBag()
         let closeImage = NSImage(named: "close")!
         closeImage.isTemplate = true
-        let closeButton = UIHelper.createOutlineButtonWithImage(image: closeImage, hasBorder: false, color:Style.GradientLayerTextColors[UserDefaults.standard.integer(forKey: "styleID")], size: NSSize(width: 30, height: 30))
+        let closeButton = ASButton(image: closeImage, hasBorder: false, color:Style.GradientLayerTextColors[UserDefaults.standard.integer(forKey: "styleID")], size: NSSize(width: 30, height: 30))
         window.contentView!.addSubview(closeButton)
         closeButton.rx.tap.subscribe(onNext: { [unowned self]() in
             self.hideHUD()
