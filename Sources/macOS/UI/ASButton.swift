@@ -28,10 +28,12 @@ public class ASButton: NSButton {
     
     
     public init(_ title:String, hasBorder:Bool, color:ASColor, size:NSSize? = nil) {
+        super.init(frame: NSRect.zero)
         init(title:title, image:nil, hasBorder:hasBorder, color:color, size:size)
     }
     
     public init(_ image:ASImage, hasBorder:Bool, color:ASColor, size:NSSize? = nil) {
+        super.init(frame: NSRect.zero)
         init(title:nil, image:image, hasBorder:hasBorder, color:color, size:size)
     }
     
