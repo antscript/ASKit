@@ -22,7 +22,7 @@ public struct AppInfo {
     public static func setup(name:String?, email:String?, logo:ASImage?, copyright:String?, appStoreURL:String?, rateURL:String?, version:String? , build:String?) {
         AppInfo.Name = name == nil ? (Bundle.main.object(forInfoDictionaryKey: "CFBundleName")! as! String) : name!
         AppInfo.Email = email == nil ? "" : email!
-        AppInfo.Logo = logo == nil ? "" : logo!
+        AppInfo.Logo = logo
         AppInfo.Copyright = copyright == nil ? "" : copyright!
         AppInfo.AppStoreURL = appStoreURL == nil ? "" : appStoreURL!
         AppInfo.RateURL = rateURL == nil ? "" : rateURL!

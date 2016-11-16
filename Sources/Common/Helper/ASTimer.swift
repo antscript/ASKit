@@ -13,7 +13,7 @@ public class ASTimer {
     public typealias Task = (_ cancel:Bool) -> ()
     
     
-    public static func delayedCall(_ time:TimeInterval, task:()->()) -> Task? {
+    public static func delayedCall(_ time:TimeInterval, task:@escaping ()->()) -> Task? {
         func dispatch_later(_ block:@escaping ()->()) {
             DispatchQueue.main.asyncAfter(
                 deadline: DispatchTime.now() + Double(Int64(time * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC),
@@ -95,7 +95,7 @@ public class ASTimer {
                 stopTimer(id: id)
             }
             timersObj[id]!.timeInterval = Int(Date().timeIntervalSince1970) + timersObj[id]!.seconds
-            timersObj[id]!.timer = Timer.scheduledTimer(timeInterval: 1, target: TimerHelper.self, selector: #selector(timerUpdate), userInfo: ["id":id], repeats: true)
+            timersObj[id]!.timer = Timer.scheduledTimer(timeInterval: 1, target: ASTimer.self, selector: #selector(timerUpdate), userInfo: ["id":id], repeats: true)
         }
     }
     

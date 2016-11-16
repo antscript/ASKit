@@ -14,7 +14,7 @@ import RxSwift
 import RxCocoa
 
 
-public infix operator <->
+infix operator <->
 
 public func <-> (slider:NSSlider, variable: Variable<Double>) -> Disposable {
     let bindToUIDisposeable = variable.asObservable()
